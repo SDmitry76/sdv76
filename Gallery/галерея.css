@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    margin: auto;
+    padding: 0.5em;
+    background-color: lightgreen;
+  }
+button {
+  background-color: red;
+  border-color: blue;
+  color: aliceblue;
+  cursor: pointer;
+  font-size: 20px;
+ 
+}
+  
+   #imageContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+            
+        }
+        
+
+  .catImage {
+            width: 450px;
+            height: 350px;
+            margin: 10px;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+        }
+  
